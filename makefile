@@ -28,10 +28,10 @@ CC = gcc
 	                                           
 # What kind of problem are we running?  This will enable a default set of code components
 # appropriate for different kinds of problems.  Select only one.
-MODE_DEF = -DGALAXY            #Default mode: includes SPH, star formation, and feedback.
+#MODE_DEF = -DGALAXY            #Default mode: includes SPH, star formation, and feedback.
 #MODE_DEF = -DCOLLISIONAL		#Collisional mode for simulating asteroids & planets
 #MODE_DEF = -DNBODY 			#N-body only mode: gravity with nothing else.
-#MODE_DEF = -DJUSTHYDRO			#SPH only mode: just do hydro/gravity and nothing else
+MODE_DEF = -DJUSTHYDRO			#SPH only mode: just do hydro/gravity and nothing else
 #MODE_DEF = -DGLASS_IC 			#Generate a gravity glass (useful for making ICS)
 
 #	 /$$   /$$                                         /$$
